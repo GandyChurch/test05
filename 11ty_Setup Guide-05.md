@@ -29,12 +29,13 @@ To see if you have Node.js installed on your computer open your terminal and typ
 If it shows a version number you have it installed. If the version installed is older than version 18 you will need to upgrade it to version 18 or higher.
 
 #### Setting up your terminal in Windows
-1. Right click on the Window's Star Icon and select the Settings option.
+1. Enable running PowerShell scripts.
+   - Right click on the Window's Start Icon and select the Settings option.
    - Select the Advance option from the list.
    - Click the drop down arrow on the PowerShell option.
    - Turn on the "Change execution policy to allow local PowerShell scripts to run without signing. Require signing for remote scripts" toggle button.
    - Close the "Settings" window.
-2. Next.
+2. Next item.
 3. And next.
 
 ### Starting From Scratch
@@ -116,15 +117,28 @@ For windows right click in your Site01 folder and select "Open in Terminal" and 
 ```
 
 10. In terminal at folder /Site01 run: npm install @11ty/eleventy
-This will install a local version of Eleventy to this folder. Specifically it installs the node_modules folder and the package-lock.json file.
+This will install a local version of Eleventy to this folder. Specifically it installs the node_modules folder and the package-lock.json file. It is better to install a local version of eleventy for each site so that each person working on the site is using the same node.js modules and the same version of eleventy./
 
-11. Create a subfolder in folder /Site01: src
+The terminal output should look something like this:
+```
+PS J:\Website_Gandy\50_Site_Current\Gandy_GitHub\test05> npm install @11ty/eleventy
+
+added 129 packages, and audited 130 packages in 5s
+
+33 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS J:\Website_Gandy\50_Site_Current\Gandy_GitHub\test05>
+```
+
+12. Create a subfolder in folder /Site01: src
  The src folder will hold all the other folders and files to create our website.
 
-12. Create a file in the folder /src: index.md
+13. Create a file in the folder /src: index.md
 This will be used to create our home page. For now type into it "Hello, World". We told Eleventy to use the "src" folder in step 7 as the input folder for all the source material for our website.
 
-13. In the terminal run this command: npx eleventy --serve
+14. In the terminal run this command: npx eleventy --serve
 This command will take the folders and files in the src folder, process them into HTML and output these files in the dist folder. It also spins a mini server and serves the files to the localhost at port 8080. Here is an example of what the command does:
 
 ```
