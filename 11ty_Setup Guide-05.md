@@ -282,7 +282,7 @@ Delete the `{% block content %}{% endblock %}` and replace it with this:
 ```
 
 28. (L6) Open file: src/_includes/layouts/base.html
-Add this line **above** your <main> element:
+Add this line **above** your main element:
 ```js
 {% include "partials/site-head.html" %}
 ```
