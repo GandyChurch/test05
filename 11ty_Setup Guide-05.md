@@ -119,7 +119,7 @@ For windows right click in your Site01 folder and select "Open in Terminal" and 
 10. In terminal at folder /Site01 run: npm install @11ty/eleventy
 This will install a local version of Eleventy to this folder. Specifically it installs the node_modules folder and the package-lock.json file. It is better to install a local version of eleventy for each site so that each person working on the site is using the same node.js modules and the same version of eleventy./
 
-The terminal output should look something like this:
+11. The terminal output should look something like this:
 ```
 PS J:\Website_Gandy\50_Site_Current\Gandy_GitHub\test05> npm install @11ty/eleventy
 
@@ -131,7 +131,6 @@ added 129 packages, and audited 130 packages in 5s
 found 0 vulnerabilities
 PS J:\Website_Gandy\50_Site_Current\Gandy_GitHub\test05>
 ```
-
 12. Create a subfolder in folder /Site01: src
  The src folder will hold all the other folders and files to create our website.
 
