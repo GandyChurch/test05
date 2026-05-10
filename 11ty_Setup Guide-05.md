@@ -28,6 +28,15 @@ To see if you have Node.js installed on your computer open your terminal and typ
  node -v  (Return).
 If it shows a version number you have it installed. If the version installed is older than version 18 you will need to upgrade it to version 18 or higher.
 
+#### Setting up your terminal in Windows
+1. Right click on the Window's Star Icon and select the Settings option.
+   - Select the Advance option from the list.
+   - Click the drop down arrow on the PowerShell option.
+   - Turn on the "Change execution policy to allow local PowerShell scripts to run without signing. Require signing for remote scripts" toggle button.
+   - Close the "Settings" window.
+2. Next.
+3. And next.
+
 ### Starting From Scratch
 Eleventy does not come pre-configured out of the box. There are many things you need to install and configure to tailor Eleventy for your project. Some things can be ported to a new project and other settings discarded or modified.
 
@@ -86,7 +95,8 @@ src/_includes/css
 The main thing to focus on now is the line that has "dir:", the dir stands for directory and it will tell Eleventy where the input directory will be (src) that holds all the items that will be used to make your website. All the generated files for the website will be put into the output directory (dist). These are abbreviations for source (src) and distribution (dist). In computing a particular package of software ready for distribution to users.
 
  8. In terminal at folder /Site01 run command: npm init -y
-Make sure you are in the Site01 folder. This will create a package.json file and by using the -y flag we told it to answer **yes** to all the questions it would normally ask.
+Make sure you are in the Site01 folder. This will create a package.json file and by using the -y flag we told it to answer **yes** to all the questions it would normally ask./
+For windows right click in your Site01 folder and select "Open in Terminal" and terminal will open directly in that folder.
 
  9. The package.json file should contain the following:
  ```json
