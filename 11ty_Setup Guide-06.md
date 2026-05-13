@@ -28,7 +28,7 @@ To see if you have Node.js installed on your computer open your terminal and typ
  node -v  (Return).
 If it shows a version number you have it installed. If the version installed is older than version 18 you will need to upgrade it to version 18 or higher.
 
-#### Setting up your terminal in Windows
+#### Configure Windows Terminal
 1. Enable running PowerShell scripts.
    - Right click on the Window's Start Icon and select the Settings option.
    - Select the Advance option from the list.
@@ -38,12 +38,19 @@ If it shows a version number you have it installed. If the version installed is 
 2. Next item.
 3. And next.
 
+#### Node.js & NPM NOtes
+1. To start an 11ty server use this command:
+   - npx @11ty/eleventy --serve
+   - To see the website type http://localhost:8080/ in your web browser.
+2. 
+
+
 ### Starting From Scratch
 Eleventy does not come pre-configured out of the box. There are many things you need to install and configure to tailor Eleventy for your project. Some things can be ported to a new project and other settings discarded or modified.
 
 From here on out I will not provide a detail description of what needs to be done or mention every step to follow to set up Eleventy. *I will expand this guide when I have the time.*
 
-*Note: Folder and Directory mean the same thing. A place where you place all sorts of files and subfolders/subdirectories. Which these subfolders can contain more files and subfolders.
+*Note: Folder and Directory mean the same thing. A place where you place all sorts of files and subfolders/subdirectories. Which these subfolders can contain more files and subfolders.*
 
  1. Create folder: Websites
  This folder will be used to hold all of your projects/websites.
@@ -77,10 +84,9 @@ dist    # eleventy output folder
 docs    # if change output to GitHub output folder
 public  # if change output to GitLab output folder
 
-# The /css might be a mistake because css folder is located somewhere else
+# The /css might be a mistake because css folder is located somewhere else.
 # Might suppose to be just src/_includes  ;tb
-# Where did this come from? Not in Learning Eleventy.
-# src/_includes/css
+src/_includes/css
 ```
 ***Note:*** *See lesson-19 Section-Letting Eleventy see our critical CSS for why `src/_includes/css` is here.*
 
