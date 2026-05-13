@@ -73,8 +73,14 @@ npm-debug.*
 
 # Node modules and output
 node_modules
-dist
-src/_includes/css
+dist    # eleventy output folder
+docs    # if change output to GitHub output folder
+public  # if change output to GitLab output folder
+
+# The /css might be a mistake because css folder is located somewhere else
+# Might suppose to be just src/_includes  ;tb
+# Where did this come from? Not in Learning Eleventy.
+# src/_includes/css
 ```
 ***Note:*** *See lesson-19 Section-Letting Eleventy see our critical CSS for why `src/_includes/css` is here.*
 
@@ -94,6 +100,10 @@ src/_includes/css
 ```
 
 The main thing to focus on now is the line that has "dir:", the dir stands for directory and it will tell Eleventy where the input directory will be (src) that holds all the items that will be used to make your website. All the generated files for the website will be put into the output directory (dist). These are abbreviations for source (src) and distribution (dist). In computing a particular package of software ready for distribution to users.
+
+Note: Depending where you are hosting your website you might want to change it as follow:/
+GitHub: docs
+GitLab: public
 
  8. In terminal at folder /Site01 run command: npm init -y
 Make sure you are in the Site01 folder. This will create a package.json file and by using the -y flag we told it to answer **yes** to all the questions it would normally ask./
