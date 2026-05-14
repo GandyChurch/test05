@@ -12,6 +12,8 @@ Great we have a working website on our computer, but who is going to see it! Nex
 ### Backstory
 This is a shorter version of the Learn Eleventy Course (https://learn-eleventy.pages.dev/) by uncenter (https://github.com/uncenter/learn-eleventy) which is an updated version of the original course "Learn Eleventy from Scratch" (https://learneleventyfromscratch.com/) by Andy Bell (https://twitter.com/piccalilli_) (https://bell.bz/)
 
+Thank You uncenter!
+
 ### What is Eleventy
 Eleventy is a **static site generator**. It’s a smart tool that does all the hard work up front by taking content from either markdown files, JSON files or remote data sources (and much more). It then smooshes them together, providing us with an API to grab that content and build templates. It’s sort of like working on a dynamic CMS site, but instead of relying on the server to work hard on each request, we do all of that up front instead.
 
