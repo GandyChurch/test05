@@ -87,6 +87,10 @@ From here on out I will not provide a detail description of what needs to be don
 
 *Note: Folder and Directory mean the same thing. A place where you place all sorts of files and subfolders/subdirectories. Which these subfolders can contain more files and subfolders.*
 
+#### 01 Create folder: websites
+Use either the file manager or terminal. This folder will be used to hold all of your projects/websites.
+
+
  1. Create folder: Websites
  Use either the file manager or terminal. This folder will be used to hold all of your projects/websites.
 
