@@ -1,5 +1,7 @@
 # Setup Guide For An Eleventy Project
 
+### Backstory
+This is a shorter version of the Learn Eleventy Course (https://learn-eleventy.pages.dev/) by uncenter (https://github.com/uncenter/learn-eleventy) which is an updated version of the original course "Learn Eleventy from Scratch" (https://learneleventyfromscratch.com/) by Andy Bell (https://twitter.com/piccalilli_) (https://bell.bz/)
 
 ### What is Eleventy
 
@@ -51,7 +53,7 @@ If it shows a version number you have it installed. If the version installed is 
 
 
 ### Starting From Scratch
-This is a shorter version of the Learn Eleventy Course (https://learn-eleventy.pages.dev/) by uncenter (https://github.com/uncenter/learn-eleventy) which is an updated version of the original course "Learn Eleventy from Scratch" (https://learneleventyfromscratch.com/) by Andy Bell (https://twitter.com/piccalilli_) (https://bell.bz/)
+
 
 
 Eleventy does not come pre-configured out of the box. There are many things you need to install and configure to tailor Eleventy for your project. Some things can be ported to a new project and other settings discarded or modified.
