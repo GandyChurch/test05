@@ -1,40 +1,44 @@
 # Setup Guide For An Eleventy Project
 
 ## Introduction
-This guide is using some parts of the uncenter Learn Eleventy Course with my own modification to present to a new user how to bring together the different web languages and tools to build, deploy and maintain a website using Eleventy Static Site Generator (SSG). This guide is not designed to teach web programming languages such as Hypertext Markup Language (HTML), Cascading Style Sheets (CSS) or Javascript (js) as there are plenty of other websites that will do that.
+*Note: This guide is a work in progress. I will add content and make changes to it as necessary.*
 
+This guide is using some parts of the uncenter Learn Eleventy Course with my own modification to present to a new user how to bring together the different web languages and tools to build, deploy and maintain a website using Eleventy Static Site Generator (SSG). You should have a basic understandy of the three main web programming languages Hypertext Markup Language (HTML), Cascading Style Sheets (CSS) and Javascript (js) but is not necessary as most pages are already built. Otherwise there are plenty of courses on the internet that will teach theese web languages.
 
+This guide will show how to setup your computer, install the tools to use Eleventy, and build a multipage website. Why a multipage website? Because that is what most people need. Yet most tutorials on the internet or YouTube is how to use a SSG to create a blogging website. Which is not to say I want eventually add a section to this guide on how to do it, but let's do the simple things first.
 
+Great we have a working website on our computer, but who is going to see it! Next we will learn how to create an account on GitHub and then create a repository to hold the code of our website. Then how to configure GitHub to build and deploy our website from an internal GitHub address. Finally you will learn how to change the internal address to proper internet address.
+
+### Backstory
 This is a shorter version of the Learn Eleventy Course (https://learn-eleventy.pages.dev/) by uncenter (https://github.com/uncenter/learn-eleventy) which is an updated version of the original course "Learn Eleventy from Scratch" (https://learneleventyfromscratch.com/) by Andy Bell (https://twitter.com/piccalilli_) (https://bell.bz/)
 
-
-
 ### What is Eleventy
-
 Eleventy is a **static site generator**. It’s a smart tool that does all the hard work up front by taking content from either markdown files, JSON files or remote data sources (and much more). It then smooshes them together, providing us with an API to grab that content and build templates. It’s sort of like working on a dynamic CMS site, but instead of relying on the server to work hard on each request, we do all of that up front instead.
 
 The end result is a static website, made up of mainly HTML pages in folders. These folders and HTML pages can be hosted anywhere that allows you to put HTML pages on the internet. This makes static site generators (referred to as **SSGs** throughout the rest of the course) incredibly useful.
 
 ### Before We Start
-
 There are several tools you will need before we can install and setup Eleventy. They are:
   - Command Line Terminal (referred to as terminal)
-  - Node.js installed
   - Code Editor or an IDE (Intergrated Development Environment)
+  - Node.js installed
 
 #### Terminal
 All three of the main Operating Systems (OS) Windows, Mac & Linux alreadey have a terminal bundled with their OS. Open your computer's Search-Bar and type in "terminal" and it should list the name of the terminal installed on your system.
 
-#### Code Editor or an IDE
-While Windows, Mac and Linux come with a basic text editor that you could use. Your user experience will be exceptionally better if you install a code editor. VScodium is a good choice and is availble for all three OSs. What makes this so great is that you can do a lot from within it. Some of its built-in features are:
+#### Code Editor
+While Windows, Mac and Linux come with a basic text editor that you could use. Your user experience will be exceptionally better if you install a code editor. You can use the code editor of your choice. If you have no preference than VScodium is a good choice and is availble for all three OSs. What makes this so great is that you can do a lot from within it. Some of its built-in features are:
 - A file/folder manager
 - A terminal
 - An interface so you can interact with Git without using a terminal. Git has to be installed on your computer for this to work.
 
-#### Node.js
+Steps to install VScodium
 
-To see if you have Node.js installed on your computer open your terminal and type:/
- node -v  (Return).
+
+
+#### Node.js
+To see if you have Node.js installed on your computer open your terminal and type:<br>
+ node -v  (Return)<br>
 If it shows a version number you have it installed. If the version installed is older than version 18 you will need to upgrade it to version 18 or higher.
 
 #### Configure Windows Terminal
