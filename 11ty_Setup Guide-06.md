@@ -57,7 +57,7 @@ Node.js is a free, open-source JavaScript runtime environment that allows you to
 ##### Is Node.js Installed?
 To see if you have Node.js installed open your terminal and type:<br>
   - node -v  `(Press Return/Enter on keyboard after each command)`<br>
-If it shows a version number then you have it installed. If the version installed is 18 or less then you will need to upgrade it to version 18 or higher.
+If it shows a version number then you have it installed. If the version installed is 18 or less then you will need to upgrade it. I suggest you upgrade to a Long Term Service (LTS) version. Currently v24.15.0 is the LTS version of Node.js.
 
 ##### How to install Node.js
 
@@ -88,20 +88,20 @@ From here on out I will not provide a detail description of what needs to be don
 *Note: Folder and Directory mean the same thing. A place where you place all sorts of files and subfolders/subdirectories. Which these subfolders can contain more files and subfolders.*
 
  1. Create folder: Websites
- This folder will be used to hold all of your projects/websites.
+ Use either the file manager or terminal. This folder will be used to hold all of your projects/websites.
 
  2. Create subfolder inside folder /Websites: Site01
  Inside this Websites folder create another folder for the actual site you are creating.
  Short names are best with no spaces. Linux does not like spaces in filenames and since most internet servers run on linux it's best not to use them. Instead use a dash or underscore between filenames. For this guide let's call this folder "Site01".
 
- 3. Launch VScodium and click on the File menu and select Open Folder and navigate to Websites/Site01 then click on Select Folder.
+ 4. Launch VScodium and click on the File menu and select Open Folder and navigate to Websites/Site01 then click on Select Folder.
 
- 4. Create a file in folder Site01: .gitignore
+ 5. Create a file in folder Site01: .gitignore
 In VScodium/Explorer Panel hover over Site01 folder and click the Create New File icon that pops-up. 
 In the text window that opens type:
   .gitignore
 
- 5. Add the following to it:
+ 6. Add the following to it:
  ```yaml
 # Misc
 *.log
