@@ -18,12 +18,13 @@ There are several tools you will need before we can install and setup Eleventy. 
 All three of the main Operating Systems (OS) Windows, Mac & Linux alreadey have a terminal bundled with their OS. Open your computer's Search-Bar and type in "terminal" and it should list the name of the terminal installed on your system.
 
 #### Code Editor or an IDE
-While Windows, Mac and Linux come with a basic text editor that you could use. Your user experience will be exceptionally better if you download/install a code editor. VScodium is a good choice and is availble for all three OSs. What makes this so great is that you can do a lot from within it. Some of its built-in features are:
+While Windows, Mac and Linux come with a basic text editor that you could use. Your user experience will be exceptionally better if you install a code editor. VScodium is a good choice and is availble for all three OSs. What makes this so great is that you can do a lot from within it. Some of its built-in features are:
 - A file/folder manager
 - A terminal
 - An interface so you can interact with Git without using a terminal. Git has to be installed on your computer for this to work.
 
 #### Node.js
+
 To see if you have Node.js installed on your computer open your terminal and type:/
  node -v  (Return).
 If it shows a version number you have it installed. If the version installed is older than version 18 you will need to upgrade it to version 18 or higher.
@@ -38,7 +39,11 @@ If it shows a version number you have it installed. If the version installed is 
 2. Next item.
 3. And next.
 
-#### Node.js & NPM NOtes
+#### Node.js & NPM Notes
+1. To see if Node.js is installed run this command in the terminal:
+   - node -v
+
+
 1. To start an 11ty server use this command:
    - npx @11ty/eleventy --serve
    - To see the website type http://localhost:8080/ in your web browser.
@@ -46,6 +51,9 @@ If it shows a version number you have it installed. If the version installed is 
 
 
 ### Starting From Scratch
+This is a shorter version of the Learn Eleventy Course (https://learn-eleventy.pages.dev/) by uncenter (https://github.com/uncenter/learn-eleventy) which is an updated version of the original course "Learn Eleventy from Scratch" (https://learneleventyfromscratch.com/) by Andy Bell (https://twitter.com/piccalilli_) (https://bell.bz/)
+
+
 Eleventy does not come pre-configured out of the box. There are many things you need to install and configure to tailor Eleventy for your project. Some things can be ported to a new project and other settings discarded or modified.
 
 From here on out I will not provide a detail description of what needs to be done or mention every step to follow to set up Eleventy. *I will expand this guide when I have the time.*
@@ -83,12 +91,7 @@ node_modules
 dist    # eleventy output folder
 docs    # if change output to GitHub output folder
 public  # if change output to GitLab output folder
-
-# The /css might be a mistake because css folder is located somewhere else.
-# Might suppose to be just src/_includes  ;tb
-src/_includes/css
 ```
-***Note:*** *See lesson-19 Section-Letting Eleventy see our critical CSS for why `src/_includes/css` is here.*
 
  6. Create a file in folder Site01: .eleventy.js
  This is the configuration file for Eleventy and this is the most important dotfile in our setup. It delegates and instructs everything that makes up the final output.
