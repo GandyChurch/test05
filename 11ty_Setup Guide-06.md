@@ -20,7 +20,7 @@ The end result is a static website, made up of mainly HTML pages in folders. The
 ### Before We Start
 There are several tools you will need before we can install and setup Eleventy. They are:
   - Command Line Terminal (referred to as terminal)
-  - Code Editor or an IDE (Intergrated Development Environment)
+  - Code Editor
   - Node.js installed
 
 #### Terminal
@@ -39,7 +39,7 @@ While Windows, Mac and Linux come with a basic text editor that you could use. Y
 - A terminal
 - An interface so you can interact with Git without using a terminal. Git has to be installed on your computer for this to work.
 
-##### Steps to install VScodium
+Steps to install VScodium
 1. Linux or Mac
 - Use their App Manager to find and install VScodium.
 2. Windows
@@ -48,6 +48,8 @@ While Windows, Mac and Linux come with a basic text editor that you could use. Y
   - ???
 
 #### Node.js
+Node.js is a free, open-source JavaScript runtime environment that allows you to run JavaScript code outside of a web browser. While JavaScript was originally built for the "front end" (what you see on a website), Node.js enables you to use it for "back end" development. Or in ou case a local computer. Eleventy SSG is built on Javascript so it needs node.js to run. Along with other packages from the Node Package Manager (NPM) Eleventy neeed node.js to build and serve your website from the browser of your computer.
+
 To see if you have Node.js installed on your computer open your terminal and type:<br>
  node -v  (Return)<br>
 If it shows a version number you have it installed. If the version installed is older than version 18 you will need to upgrade it to version 18 or higher.
