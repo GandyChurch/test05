@@ -32,9 +32,13 @@ While Windows, Mac and Linux come with a basic text editor that you could use. Y
 - A terminal
 - An interface so you can interact with Git without using a terminal. Git has to be installed on your computer for this to work.
 
-Steps to install VScodium
-
-
+##### Steps to install VScodium
+1. Linux or Mac
+- Use their App Manager to find and install VScodium.
+2. Windows
+  - Use the Windows Store to find and install VScodium
+  - Or open the terminal and use the winget command
+  - ???
 
 #### Node.js
 To see if you have Node.js installed on your computer open your terminal and type:<br>
