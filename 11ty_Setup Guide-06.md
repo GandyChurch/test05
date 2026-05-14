@@ -51,7 +51,7 @@ Steps to install VScodium
 Node.js is a free, open-source JavaScript runtime environment that allows you to run JavaScript code outside of a web browser. While JavaScript was originally built for the "front end" (what you see on a website), Node.js enables you to use it for "back end" development. Or in our case a local computer. Eleventy SSG is built on Javascript so it needs node.js to run. Along with other packages from the Node Package Manager (NPM) Eleventy neeed node.js to build and serve your website from the browser of your computer.
 
 To see if you have Node.js installed open your terminal and type:<br>
-node -v  (Press Return/Enter on keyboard after each command)<br>
+  node -v  (Press Return/Enter on keyboard after each command)<br>
 If it shows a version number then you have it installed. If the version installed is 18 or less then you will need to upgrade it to version 18 or higher.
 
 
