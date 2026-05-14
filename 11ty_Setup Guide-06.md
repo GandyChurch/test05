@@ -88,17 +88,19 @@ From here on out I will not provide a detail description of what needs to be don
 *Note: Folder and Directory mean the same thing. A place where you place all sorts of files and subfolders/subdirectories. Which these subfolders can contain more files and subfolders.*
 
 #### 01 Create folder: websites
-Use either the file manager or terminal. This folder will be used to hold all of your projects/websites.
+This folder will be used to hold all of your projects/websites. Use either the file manager or terminal.
+
+*Tip: Use short names for folders and file names when possible. Also best to use lowercase letters and no spaces. Most servers that host webpages run on the Linux Operating System and Linux does not like spaces in filenames. Instead use a dash or underscore between filenames.*
+
+#### 02 Create folder inside websites folder: site01
+Inside this Websites folder create another folder for the actual site you are creating. For this guide let's call this folder "site01".
+
+#### 03 Launch VScodium
+Click on the File menu and select Open Folder and navigate to Websites/Site01 then click on Select Folder.
+
+ **Note: Rewrite Steps 01-03 to put launching VScodium first.**
 
 
- 1. Create folder: Websites
- Use either the file manager or terminal. This folder will be used to hold all of your projects/websites.
-
- 2. Create subfolder inside folder /Websites: Site01
- Inside this Websites folder create another folder for the actual site you are creating.
- Short names are best with no spaces. Linux does not like spaces in filenames and since most internet servers run on linux it's best not to use them. Instead use a dash or underscore between filenames. For this guide let's call this folder "Site01".
-
- 4. Launch VScodium and click on the File menu and select Open Folder and navigate to Websites/Site01 then click on Select Folder.
 
  5. Create a file in folder Site01: .gitignore
 In VScodium/Explorer Panel hover over Site01 folder and click the Create New File icon that pops-up. 
