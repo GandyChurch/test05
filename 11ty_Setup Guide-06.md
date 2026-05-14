@@ -26,6 +26,13 @@ There are several tools you will need before we can install and setup Eleventy. 
 #### Terminal
 All three of the main Operating Systems (OS) Windows, Mac & Linux alreadey have a terminal bundled with their OS. Open your computer's Search-Bar and type in "terminal" and it should list the name of the terminal installed on your system.
 
+By default windows does NOT allow a user to run unsigned Powershell Scripts on their computer. To enable running Powershell Scripts do this:
+  - Right click on the Window's Start Icon and select the Settings option.
+  - Select the Advance option from the list.
+  - Click the drop down arrow on the PowerShell option.
+  - Turn on the "Change execution policy to allow local PowerShell scripts to run without signing. Require signing for remote scripts" toggle button.
+   - Close the "Settings" window.
+
 #### Code Editor
 While Windows, Mac and Linux come with a basic text editor that you could use. Your user experience will be exceptionally better if you install a code editor. You can use the code editor of your choice. If you have no preference than VScodium is a good choice and is availble for all three OSs. What makes this so great is that you can do a lot from within it. Some of its built-in features are:
 - A file/folder manager
@@ -45,15 +52,7 @@ To see if you have Node.js installed on your computer open your terminal and typ
  node -v  (Return)<br>
 If it shows a version number you have it installed. If the version installed is older than version 18 you will need to upgrade it to version 18 or higher.
 
-#### Configure Windows Terminal
-1. Enable running PowerShell scripts.
-   - Right click on the Window's Start Icon and select the Settings option.
-   - Select the Advance option from the list.
-   - Click the drop down arrow on the PowerShell option.
-   - Turn on the "Change execution policy to allow local PowerShell scripts to run without signing. Require signing for remote scripts" toggle button.
-   - Close the "Settings" window.
-2. Next item.
-3. And next.
+
 
 #### Node.js & NPM Notes
 1. To see if Node.js is installed run this command in the terminal:
