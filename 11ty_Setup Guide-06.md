@@ -1,7 +1,13 @@
 # Setup Guide For An Eleventy Project
 
-### Backstory
+## Introduction
+This guide is using some parts of the uncenter Learn Eleventy Course with my own modification to present to a new user how to bring together the different web languages and tools to build, deploy and maintain a website using Eleventy Static Site Generator (SSG). This guide is not designed to teach web programming languages such as Hypertext Markup Language (HTML), Cascading Style Sheets (CSS) or Javascript (js) as there are plenty of other websites that will do that.
+
+
+
 This is a shorter version of the Learn Eleventy Course (https://learn-eleventy.pages.dev/) by uncenter (https://github.com/uncenter/learn-eleventy) which is an updated version of the original course "Learn Eleventy from Scratch" (https://learneleventyfromscratch.com/) by Andy Bell (https://twitter.com/piccalilli_) (https://bell.bz/)
+
+
 
 ### What is Eleventy
 
